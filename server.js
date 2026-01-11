@@ -38,7 +38,7 @@ const TXT = { green: "\x1b[32m", gold: "\x1b[38;5;220m", reset: "\x1b[0m", red: 
 // --- CONFIGURATION ---
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const EXECUTOR_ADDRESS = process.env.EXECUTOR_ADDRESS;
-const PROFIT_RECIPIENT = "0x61BB62bDa623126aA28Db58780ac81Af04275Df2";
+const PROFIT_RECIPIENT = "0x3a0Eb69521cB2C9399C61f81FB62BD4196840992";
 const TRADE_ALLOCATION_PERCENT = 80;
 const MIN_BALANCE_THRESHOLD = parseEther("0.001"); // Lowered to 0.001 ETH
 
